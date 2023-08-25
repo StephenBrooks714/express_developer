@@ -1,0 +1,35 @@
+#nav2 {
+    display: none;
+}
+#nav1 {
+    display: flex;
+}
+#nav3 {
+    display: flex;
+}
+#navBrand {
+    display: none;
+}
+.line {
+    display: none;
+}
+@media(max-width: 993px){
+    #nav2 {
+        display: block;
+    }
+    #hiddenLogo {
+        display: none;
+    }
+    .line {
+        display: flex;
+    }
+    #nav1 {
+        display: none;
+    }
+    #nav3 {
+        display: none;
+    }
+    #navBrand {
+        display: flex;
+    }
+}
